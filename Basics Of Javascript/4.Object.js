@@ -31,12 +31,12 @@ console.log(`This car type is ${car.type}`); // output: This car type is Fiat
 const person = {};
 
 // Add Properties
-person.firstName = "John";
-person.lastName = "Doe";
+person.firstName = "Ahmad";
+person.lastName = "Umar";
 person.age = 50;
 person.eyeColor = "blue";
 
-console.log(person); //output:   { firstName: 'John', lastName: 'Doe', age: 50, eyeColor: 'blue' }
+console.log(person); //output:   { firstName: 'Ahmad', lastName: 'Umar', age: 50, eyeColor: 'blue' }
 
 console.log(person.firstName); //output:   Jhon
 
@@ -46,8 +46,8 @@ console.log(person.firstName); //output:   Jhon
 const person2 = new Object();
 
 // Add Properties
-person2.firstName = "John";
-person2.lastName = "Doe";
+person2.firstName = "Ahmad";
+person2.lastName = "Umar";
 person2.age = 50;
 person2.eyeColor = "blue";
 
@@ -60,13 +60,13 @@ console.log(person2.firstName);
 /*
 
 Deleting Properties:
-    The delete keyword deletes a property from an object.
+  The delete keyword deletes a property from an object.
 
 */
 
 const person3 = {
-  firstName: "John",
-  lastName: "Doe",
+  firstName: "Ahmad",
+  lastName: "Umar",
   age: 50,
   eyeColor: "blue",
 };

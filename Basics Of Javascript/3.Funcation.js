@@ -8,7 +8,7 @@ JavaScript Function Definitions:
 Funcation syntax:
 
 funcation nameOfFuncation(parameter1 , parameter2 , parameter3 , ......) {
-    //  code to be exeuted
+    return 0;
 }
 
 */
@@ -45,17 +45,15 @@ Funcation Return :
     Funcations often compute a return value. The "returned" value back to the "caller".
 */
 
-
 function toFahernheit(c) {
-    return (c * 9 / 5) + 32;
+    return (c * 9) / 5 + 32;
 }
 
-let value = toFahernheit(25);
+let value = toFahernheit(26);
 
 console.log(`Convert Fahernheit to Celsius : ${value}`);
 
 //  output: Convert Fahernheit to Celsius : 77
-
 
 /*
 
@@ -67,16 +65,16 @@ Local variables:
 */
 let Name;
 
-let text = `Outside : ${typeof Name} ${ Name}`;
+let text = `Outside : ${typeof Name} ${Name}`;
 
-console.log(text);      //output: undefined undefined
+console.log(text); //output: undefined undefined
 
 function myFunction() {
     let Name = "Ahmad Umar";
 
-    let text = `Inside : ${typeof Name} ${ Name}`;
+    let text = `Inside : ${typeof Name} ${Name}`;
 
     console.log(text);
 }
 
-myFunction();   //output:  Inside : string Ahmad Umar 
+myFunction(); //output:  Inside : string Ahmad Umar

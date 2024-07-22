@@ -2,7 +2,8 @@
 
 Javascript Array : 
 
-    The Array object, as with arrays in other programming languages, enables storing a collection of multiple items under a single variable name, and has members for performing common array operations.
+    The Array object, as with arrays in other programming languages, enables storing a collection of multiple
+    items under a single variable name, and has members for performing common array operations.
 
 */
 
@@ -23,14 +24,10 @@ Javascript Array :
 
 // console.log(cars);
 
-
 //  Using the JavaScript Keyword new There is no need to use new Array().
 
 // const cars = new Array("Saab", "Volvo", "BMW");
 // console.log(cars);
-
-
-
 
 /*
 
@@ -48,7 +45,8 @@ Array unshift() :The unshift() method adds a new element to an array (at the beg
 Array delete()  :The delete()method delete a element to array.
 Array concat()  :In programming languages, concatenation means joining strings end-to-end.Concatenation "snow" and "ball" gives "snowball".
 Array copyWithin()  :The copyWithin() method copies array elements to another position in an array.
-:Syntax:copyWithin(target, start, end)      
+:Syntax:copyWithin(target, start, end)  
+    
 The copyWithin() method copies array elements to another position in an array.
 The copyWithin() method overwrites the existing values.
 The copyWithin() method does not add items to the array.
