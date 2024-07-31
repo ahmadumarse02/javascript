@@ -17,6 +17,7 @@
     meaning that a variable isn’t associated with a specific type. 
     In other words, a variable can hold a value of different types.
     To determine the current type of the value stored in a variable,
+    
     you use the typeof operator:
 
 */
